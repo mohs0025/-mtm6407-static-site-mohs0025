@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Web Development', link: '/portfolio/web-development' },
-      { text: 'Web Design', link: '/portfolio/web-design' },
+      // { text: 'Web Design', link: '/portfolio/web-design' },
       { text: 'UI/UX-Projects', link: '/portfolio/ui-ux-projects' }
     ],
 
@@ -17,7 +17,7 @@ export default defineConfig({
         text: 'My Portfolio',
         items: [
           { text: 'Web Development', link: '/portfolio/web-development' },
-          { text: 'Web Design', link: '/portfolio/web-design' },
+          // { text: 'Web Design', link: '/portfolio/web-design' },
           { text: 'UI/UX-Projects', link: '/portfolio/ui-ux-projects' }    
         ]
       }

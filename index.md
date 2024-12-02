@@ -5,7 +5,10 @@ layout: home
 hero:
   name: "Sara Mohsenpour Portfolio"
   text: "Web design projects"
+  image: 
+    src: /sara.jpg
   tagline: A showcase of creativity, design, and development
+   
   actions:
     - theme: brand
       text: Web Development
