@@ -20,20 +20,25 @@ hero:
       text: UI/UX-Projects
       link: /portfolio/ui-ux-projects
 
-features:
+features: 
   - title: LuxPersia
-    details: Persian Art Works Online Marketplace 
+    details: |
+      <img src="/luxpersia.jpg" alt="LuxPersia" class="feature-image">
+      Persian Art Works Online Marketplace
     link: /portfolio/web-development/luxpersia
-    
 
   - title: Astronomy
-    details: Picture of the Day (Web Application)
+    details: |
+      <img src="/capston.jpg" alt="Astronomy" class="feature-image">
+      Picture of the Day (Web Application)
     link: /portfolio/web-design/astronomy
 
-
   - title: Casa Mexico
-    details: Elevating the Brand and online experience through a redesigned Web presence
+    details: |
+      <img src="/casamexico.jpg" alt="Casa Mexico" class="feature-image">
+      Elevating the Brand and online experience through a redesigned Web presence
     link: /portfolio/ui-ux-projects/casamexico
+
 
 ---
 
