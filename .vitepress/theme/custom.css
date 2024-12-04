@@ -27,12 +27,18 @@
   border-color: #ff7340 !important;
 } */
 
-
-
-.btnnew:hover {
+.btnnew {
   background-color: #4d40ff !important; 
   border-color: #ff40c9 !important;
   color: white !important;
+  font-weight: bold;
+}
+
+
+.btnnew:hover {
+  background-color: rgb(201, 196, 196) !important; 
+  border-color: #ff40c9 !important;
+  color: black !important;
   font-weight: bold;
 }
 

@@ -1,37 +1,48 @@
 ![banner](/capston.jpg)
-
 # Astronomy
 ### Picture of the Day (Web Application)
 
-Welcome to my **Web Development Projects** page! Here, you’ll find a collection of the web projects I’ve designed and developed, showcasing my skills in front-end and back-end technologies. Each project highlights unique challenges and creative solutions tailored to specific goals and audiences.
+This project entails the design and development of a web application utilizing the NASA APOD API. Users will have the capability to request Astronomy Pictures of the Day by specifying the desired date. Additionally, they will be able to save and manage their favorite pictures as favorites. The focus of this project is on creating a user-friendly interface and efficient functionality to provide users with an engaging and seamless experience in exploring astronomy imagery.
 
-## Projects List
+## Imagery
+Imagining the APOD Web app as a playful astronaut navigating the moon’s surface alongside cheerful anime characters infuses the design with a sense of wonder and joy. This approach is aimed at making the site engaging and delightful for children, encouraging exploration and curiosity about space.
+![banner](/picture.jpg){style="padding-top: 20px;"}
 
-- **LuxPersia:**  
-  Explore a digital gallery showcasing the rich heritage of Persian art with a modern, elegant web design.  
-  <a href="/portfolio/web-development/luxpersia" class="btn" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">View Project</a>
+<div class="discover-section">
 
-- **Astronomy:**  
-  Discover the cosmos with a web application integrated with NASA’s APOD API, bringing the universe to your fingertips.  
-  <a href="/portfolio/web-development/astronomy" class="btn" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #333; color: white; text-decoration: none; border-radius: 5px;">View Project</a>
+### Icons
 
-<div class="container">
-  <div class="row align-items-center">
-    <!-- Text Content -->
-    <div class="col-md-8 col-sm-12">
-      <h2>What You Can Expect</h2>
-      <ul>
-        <li><strong>Creative Design:</strong> Each project features a unique design approach tailored to its purpose.</li>
-        <li><strong>Responsiveness:</strong> All projects are fully responsive and accessible across devices.</li>
-        <li><strong>Dynamic Functionality:</strong> From interactive elements to dynamic data integration, these projects reflect innovative web solutions.</li>
-        <li><strong>Attention to Detail:</strong> A focus on aesthetics and user experience ensures every project meets high standards of quality.</li>
-      </ul>
-    </div>
+**Star:**  
+- Purpose: Used solely for decoration.  
+- Design Decision: Stars have no hover effect, maintaining simplicity and preventing distraction.  
 
-    <!-- Image -->
-    <div class="col-md-4 col-sm-12 text-center">
-      <img src="/casamexico.jpg" alt="What You Can Expect" class="img-fluid rounded-circle">
-    </div>
-  </div>
+**Heart:**  
+- Purpose: Utilized to mark images as favorites.  
+- Design Decision: Clicking on the heart icon will designate the image as a favorite, allowing users to easily access and revisit their preferred content. This functionality enhances user interaction and personalization.
+
+![banner](/uielements.jpg){style="padding-top: 20px;"}
+
+![banner](/favourites.jpg){style="padding-top: 20px;"}
+
 </div>
 
+  <a href="https://mohs0025.myportfolio.com/nature-story" class="btnnew" style="display: inline-block; margin-top: 10px; padding: 5px 10px; background-color: #333; color: white; text-decoration: none; border-radius: 15px;">View Project</a>
+  
+
+  <style>
+    /* Light mode background */
+.discover-section {
+  padding-left: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f0f0f0; 
+  color: #333; 
+}
+/* Dark mode background and text*/
+@media (prefers-color-scheme: dark) {
+  .discover-section {
+    background-color: #444444; 
+    color: #ffffff; 
+  }
+}
+</style>
